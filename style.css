@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: dimgray;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+
+/*Nabvar*/
+
+#navbar {
+    padding: 10px 10px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo_list {
+    display: flex;
+    align-items: center;
+}
+
+.logo_list_item {
+    padding-right: 13px;
+    letter-spacing: 1.3px;
+}
+
+.logo_list2 {
+    display: flex;
+}
+
+.search input {
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    letter-spacing: 1.3px;
+}
+
+.search_btn {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    border-radius: 6px;
+    color: #ddd;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+}
+
+
+/*section*/
+
+#section1 {
+    text-align: center;
+}
+
+.section1-main {
+    background: url(./assets/photo1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+}
+
+.section-main-btn {
+    padding: 15px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: palegoldenrod;
+    border: none;
+    border-radius: 8px;
+}
+
+.section1-description {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.section1-description-h1 {
+    font-size: 48px;
+}
+
+.section1-description-p {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.section1-contents {
+    display: flex;
+    padding: 70px 70px;
+    border-bottom: 1px solid lightgray;
+    margin: 0 20px;
+}
+
+.section1-contents-card {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.section1-contents-card-list {
+    margin-right: 30px;
+}
+
+.section1-contents-card-list h1 {
+    padding-bottom: 10px;
+}
+
+.section1-contents-btn {
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    border: 1px solid dimgray;
+    font-size: 15px;
+    background-color: dimgray;
+    color: #fff;
+}
+
+.section1-contents-btn ::after {
+    content: '3';
+    width: 2px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.section1-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#section2 {
+    margin: 0 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.section2-card1 {
+    display: flex;
+    padding: 35px 35px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section2-img {
+    width: 500px;
+    height: 500px;
+    margin: 0 20px;
+}
+
+.section2-description {
+    margin-top: 100px;
+}
+
+.section2-h1 {
+    font-size: 52px;
+}
+
+.text-muted {
+    color: grey;
+}
+
+.section2-p {
+    font-size: 26px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 50px;
+}
+
+.footer-description {
+    display: flex;
+}
+
+.footer-description a {
+    padding-left: 10px;
+}
